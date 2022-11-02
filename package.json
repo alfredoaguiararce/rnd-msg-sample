@@ -1,0 +1,27 @@
+{
+  "name": "rnd-msg-sample",
+  "version": "1.0.0",
+  "description": "A node package that returns a random message, this is a sample project to work with packages in NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfredoaguiararce/rnd-msg-sample.git"
+  },
+  "keywords": [],
+  "author": "Alfredo Aguiar Arce <alfredoaguiararce@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfredoaguiararce/rnd-msg-sample/issues"
+  },
+  "homepage": "https://github.com/alfredoaguiararce/rnd-msg-sample#readme",
+  "bin": {
+    "rnd-msg-sample": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1"
+  }
+}
